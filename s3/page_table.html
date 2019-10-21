@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Page d'accueil</title>
+    <style>
+      #parent {
+        width: 500px;
+        height: 500px;
+        background: pink;
+        display: flex;
+        align-items: center;
+      }
+      #parent div {
+        height: 100px;
+        width: 100px;
+      }
+      #parent :nth-child(2n + 1) {
+        background: yellow;
+        flex: 1;
+      }
+      #parent :nth-child(2n) {
+        background: rgb(8, 214, 180);
+        flex: 1 0 50px;
+      }
+    </style>
   </head>
   <body>
+    <div id="parent">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
     <!--
     table>tr*4>td*2 -->
     <table border="0" align="center" width="800" height="400" cellpadding="10">
