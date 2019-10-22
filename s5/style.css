@@ -1,3 +1,7 @@
+body {
+  background: url("images/back.jpg");
+}
+
 h1,
 h2,
 h3 {
@@ -6,11 +10,40 @@ h3 {
   text-align: center;
   text-transform: capitalize;
   padding: 10px;
+  border: 2px solid black;
 }
-
 p {
   text-align: justify;
   text-indent: 30px;
   background: rgb(221, 233, 248);
   padding: 20px;
+  border: 2px solid black;
+  opacity: 0.8;
+  columns: 2;
+}
+
+p img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+p:hover {
+  background: black;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+}
+li {
+  color: white;
+  list-style: none;
+  border: 1px solid white;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+li:hover {
+  background: white;
+  color: red;
 }
