@@ -47,3 +47,8 @@ li:hover {
   background: white;
   color: red;
 }
+
+.parent {
+  width: 100%;
+  height: 400px;
+}

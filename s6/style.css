@@ -3,6 +3,7 @@ body {
 }
 h1 {
   text-align: center;
+  background: yellow;
 }
 p {
   border: 2px solid black;
@@ -32,4 +33,27 @@ p + img {
 .important:hover {
   background: black;
   color: white;
+}
+.parent {
+  width: 100%;
+  height: 400px;
+}
+.enfant1 {
+  background: url(images/iphone11x.jpg);
+  height: 400px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+.enfant2 {
+  height: 400px;
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.enfant1 img {
+  width: 90%;
 }
