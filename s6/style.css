@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+p {
+  border: 2px solid black;
+  padding: 15px;
+  color: red;
+  columns: 2;
+  text-align: justify;
+}
+.important {
+  color: black;
+  font-size: 18px;
+  columns: 1;
+}
+
+p img {
+  width: 150px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+h1 + img {
+  width: 100%;
+}
+p + img {
+  display: none;
+}
+
+.important:hover {
+  background: black;
+  color: white;
+}

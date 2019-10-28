@@ -1,7 +1,7 @@
+/* modifier et personnaliser le style par defaut des balises html */
 body {
   background: url("images/back.jpg");
 }
-
 h1,
 h2,
 h3 {
