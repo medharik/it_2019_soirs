@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 1000px;
+  height: 100px;
+  background: pink;
+  margin: auto;
+}
+
+#logo {
+  width: 200px;
+  height: 100px;
+  background: red;
+  float: left;
+}
+nav {
+  width: 600px;
+  height: 100px;
+  background: rgb(43, 3, 3);
+  float: right;
+}
+
+#intro {
+  width: 1000px;
+  height: 400px;
+  background: rgb(103, 245, 59);
+  margin: auto;
+}
