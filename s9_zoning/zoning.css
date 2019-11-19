@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px black;
+  background: white;
+}
+#rs {
+  width: 100%;
+  height: 50px;
+  background: rgb(2, 2, 65);
+}
+#entete {
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+}
+#logo {
+  width: 30%;
+  height: 150px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#menu {
+  width: 70%;
+  height: 150px;
+  float: right;
+}
+.s {
+  width: 1000px;
+  min-height: 400px;
+  margin: 16px auto;
+}
+
+#banner {
+  margin-top: 50px;
+}
+
+#apropos {
+  background: #f9f9f9;
+}
+#services {
+  background: rgb(231, 43, 43);
+}
+
+footer {
+  width: 100%;
+  min-height: 100px;
+  background: grey;
+}
+
+.full {
+  width: 100%;
+}
+
+#tof {
+  width: 30%;
+  min-height: 300px;
+  float: left;
+}
+#tof img {
+  height: 400px;
+}
+#text {
+  width: 65%;
+  min-height: 300px;
+  float: right;
+}
