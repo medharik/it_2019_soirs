@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(247, 236, 236);
+}
+header {
+  width: 100%;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+.sl {
+  width: 1000px;
+  height: 500px;
+  margin: 10px auto;
+}
+#banner {
+  background: rgba(8, 8, 8, 0.212);
+  position: relative;
+  display: flex;
+  margin-top: 60px;
+}
+#about {
+}
+
+#info {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+#banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.col {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+
+#mot {
+  text-align: center;
+  display: flex;
+  background: rgb(246, 243, 243);
+}
+.shad {
+  box-shadow: 1px 1px 4px black;
+}
+#tof {
+  background: rgb(255, 255, 255);
+  color: rgb(187, 177, 177);
+}
+#tof img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#mot img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#m {
+  margin: auto;
+  width: 90%;
+}
