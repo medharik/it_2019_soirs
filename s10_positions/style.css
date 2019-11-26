@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 body {
   background: rgb(247, 236, 236);
@@ -14,17 +15,18 @@ header {
   z-index: 4;
 }
 .sl {
-  width: 1000px;
+  width: 1200px;
   height: 500px;
   margin: 10px auto;
 }
 #banner {
-  background: rgba(8, 8, 8, 0.212);
+  background: rgb(15, 14, 14);
   position: relative;
   display: flex;
   margin-top: 60px;
 }
 #about {
+  height: auto;
 }
 
 #info {
@@ -76,4 +78,56 @@ header {
 #m {
   margin: auto;
   width: 90%;
+}
+.catalogue {
+  min-height: 600px;
+  width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
+.produit {
+  width: 33.33%;
+  height: 400px;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+.tof_produit {
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.info_produit {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  color: grey;
+  box-shadow: 1px 1px 4px black;
+  position: relative;
+  top: 8px;
+}
+
+.tof_produit img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px black;
+}
+.n {
+  clear: both;
+}
+
+section + h2 {
+  background: rgb(243, 238, 238);
+  text-align: center;
+  padding: 20px;
+  margin: 16px auto;
+  width: 1200px;
 }
