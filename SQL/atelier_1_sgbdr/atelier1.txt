@@ -1,0 +1,35 @@
+ATELIER 1 : SGBDR MYSQL & SQL
+E1- CREER UNE BASEDE DONNEES : db1
+E2- CREER une table produit :
+    produit(id,libelle,prix , qtestock)
+    sachant que :
+        id: int pk et a_i
+        libelle varchar(50)
+        prix float 
+        qtestock int
+E-3 afficher la structure de la table produit : (describe produit)
+E-4
+Rappel : 
+LMD  : sous langage d'SQL => langage de manipulation des donnees 
+basé sur 3 requetes de base :
+    - insert : ajout d'un nouveau record
+    - update : MAJ
+    - delete  : suppression
+    exemples : 
+    insert into produit (libelle,prix,qte) 
+    values ('hp dv 6',9000,90)
+
+    la MAJ 
+    update produit 
+     set   
+     prix =9000 ,
+     qte=9 
+     where id=3 
+      la suppression
+      delete from produit where id=9
+      E-4
+      ajouter 5 produits
+      E-5 supprimer le produit ayant l'id =1
+      E-6 reduire de 10%  du  prix du prouduit ayant id=3
+     
+  
