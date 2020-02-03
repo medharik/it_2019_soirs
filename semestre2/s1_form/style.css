@@ -1,0 +1,15 @@
+label {
+  cursor: pointer;
+}
+table {
+  background: orangered;
+  color: rgb(194, 190, 190);
+  padding: 10px;
+}
+button,
+input,
+textarea {
+  width: 100%;
+  background: rgb(34, 34, 223);
+  color: white;
+}
