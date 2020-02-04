@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>les formulaires</title>
+  </head>
+  <body>
+    <h2>les formulaires ... la suite</h2>
+    <form action="">
+      <table border="1">
+        <tr>
+          <td><label for="np">Nom & Prenom :</label></td>
+          <td>
+            <input
+              placeholder="exemple@itsup.ma"
+              type="text"
+              name="npo"
+              id="np"
+              autocomplete="off"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email :</label></td>
+          <td>
+            <input type="email" name="em" id="email" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Sexe</td>
+          <td>
+            <label for="homme">Homme :</label>
+            <input type="radio" name="ali" id="homme" value="homme" />
+            <label for="femme">Femme :</label>
+            <input checked type="radio" name="ali" id="femme" value="femme" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dn">Date de naissance :</label></td>
+          <td>
+            <input type="date" name="dn" id="dn" />
+            <input type="time" name="ti" id="klk" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="couleur">Couleur :</label></td>
+          <td>
+            <input type="color" name="c" id="couleur" />
+          </td>
+        </tr>
+        <tr>
+          <td>St</td>
+          <td>
+            <label for="d">Diplome</label>
+            <input type="checkbox" checked name="d" id="d" value="Diplome" />
+            <label for="c">Chomeur</label>
+            <input type="checkbox" name="d" id="c" value="chomeur" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="ne"> Nombre d'enfant:</label></td>
+          <td>
+            <input type="number" name="ne" id="ne" min="0" max="20" value="3" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="adresse">Adresse :</label></td>
+          <td>
+            <textarea
+              name="adresse"
+              id="adresse"
+              cols="30"
+              rows="4"
+              placeholder="Exemple : Casa, rue des citroniers , numm"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tva">TVA :</label></td>
+          <td>
+            <input type="number" name="c" id="t" value="30" readonly />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="ville">Ville :</label></td>
+          <td>
+            <select name="ville" id="ville" multiple size="2">
+              <option value="Casablanca">Casa</option>
+              <option value="Casablanca">Casa</option>
+              <option value="Casablanca">Casa</option>
+              <option value="Rabat" selected>Rabat</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button>valider</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
