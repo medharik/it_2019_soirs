@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro JAVASCRIPT</title>
+  </head>
+  <body>
+    <form action="">
+      Prix : <input type="number" name="pr" id="pr" /> Quantité :
+      <input type="number" name="q" id="qt" /> TVA :
+      <input type="number" name="t" id="t" />
+      <button type="button" onclick="calculer()">Calculer</button>
+    </form>
+
+    <script>
+      function calculer() {
+        var p = document.getElementById("pr"); //input ayant = p
+        var qt = document.getElementById("qt");
+        var t = document.getElementById("t");
+        var prix = p.value; // la valeur du champs input : p
+        var qte = qt.value;
+        var tva = t.value;
+
+        var tht = prix * qte; // calcul
+        var ttc = prix * qte * (1 + tva / 100); // calcul
+        alert("le tht est " + tht + " DHS");
+        alert("le ttc est " + ttc + " DHS");
+      }
+    </script>
+  </body>
+</html>

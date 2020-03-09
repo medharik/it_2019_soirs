@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  margin: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  border: 1px solid grey;
+  margin: 10px;
+  font-size: 30px;
+}
+
+label {
+  font-size: 30px;
+}
+button {
+  background: orangered;
+  padding: 10px;
+  color: white;
+}
+
+input[type="number"] {
+  color: red;
+}
